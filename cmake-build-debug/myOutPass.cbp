@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myOutPass"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\;CMake Files\LeoObfuscator\;CMake Files\ollvm\;CMake Files\ollvm\lib\;CMake Files\ollvm\lib\Transforms\;CMake Files\ollvm\lib\Transforms\ObfuscationLeo\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-LeoObfuscator-stripped">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 install-LeoObfuscator-stripped"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-LeoObfuscator">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 install-LeoObfuscator"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeoObfuscator">
+				<Option output="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/libLeoObfuscator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGTEST_HAS_RTTI=0"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 LeoObfuscator"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeoObfuscator/fast">
+				<Option output="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/libLeoObfuscator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGTEST_HAS_RTTI=0"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 LeoObfuscator/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/LeoObfuscator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLVMObfuscationLeo">
+				<Option output="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/libLLVMObfuscationLeo.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGTEST_HAS_RTTI=0"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/ObfuscationLeo/../../../include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 LLVMObfuscationLeo"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLVMObfuscationLeo/fast">
+				<Option output="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/libLLVMObfuscationLeo.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGTEST_HAS_RTTI=0"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/ObfuscationLeo/../../../include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode-11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 LLVMObfuscationLeo/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-LLVMObfuscationLeo-stripped">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 install-LLVMObfuscationLeo-stripped"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install-LLVMObfuscationLeo">
+				<Option working_dir="/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 install-LLVMObfuscationLeo"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug/ollvm/lib/Transforms/ObfuscationLeo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/LeoObfuscator/leoStringobf.cpp">
+			<Option target="LeoObfuscator"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/ObfuscationLeo/Entry.cpp">
+			<Option target="LLVMObfuscationLeo"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/ObfuscationLeo/Hello.cpp">
+			<Option target="LLVMObfuscationLeo"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/ObfuscationLeo/StringStitution.cpp">
+			<Option target="LLVMObfuscationLeo"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/AddLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/DetermineGCCCompatible.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/LLVMExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/../../../../../../usr/local/lib/cmake/llvm/LLVMProcessSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/LeoObfuscator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LeoObfuscator\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ollvm\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ollvm\lib\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ollvm\lib\Transforms\"/>
+		</Unit>
+		<Unit filename="/Users/wangyankun/Documents/onebyone/outPass/myPass/ollvm/lib/Transforms/ObfuscationLeo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ollvm\lib\Transforms\ObfuscationLeo\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

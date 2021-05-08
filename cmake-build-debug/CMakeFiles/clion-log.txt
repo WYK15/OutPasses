@@ -1,0 +1,20 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/wangyankun/Documents/onebyone/outPass/myPass
+CMake Warning (dev) at CMakeLists.txt:1 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found LLVM 10.0.0git
+-- Using LLVMConfig.cmake in: /usr/local/lib/cmake/llvm
+-- Linker detection: ld64
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/wangyankun/Documents/onebyone/outPass/myPass/cmake-build-debug
