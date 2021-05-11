@@ -1,13 +1,15 @@
-#ifndef _FLATTENING_INCLUDES_
-#define _FLATTENING_INCLUDES_
+#ifndef OBFUSCATION_STRING_ENCRYPTION_H1
+#define OBFUSCATION_STRING_ENCRYPTION_H1
 
 namespace llvm {
-    class FunctionPass;
+    class ModulePass;
+    class PassRegistry;
     class IPObfuscationContext;
     struct ObfuscationOptions;
-    FunctionPass *createStringStitution();
-    FunctionPass *createStringStitution(bool flag);
-    FunctionPass *createStringStitution(bool flag, IPObfuscationContext *IPO, ObfuscationOptions *Options);
+
+    ModulePass *createStringStitution();
+    ModulePass *createStringStitution(bool flag);
+    ModulePass *createStringStitution(bool flag, IPObfuscationContext *IPO, ObfuscationOptions *Options);
 }
 
 

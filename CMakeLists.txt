@@ -15,7 +15,7 @@ cmake_minimum_required(VERSION 3.16)
 # follows.
 set(CMAKE_SHARED_LINKER_FLAGS "-undefined dynamic_lookup")
 
-set(LLVM_DIR /Users/wangyankun/Documents/onebyone/llvm-project-swift-release-5.4-llvm11/ninja_build)
+set(LLVM_DIR /Users/wangyankun/Downloads/llvm-project-swift-release-5.4/ninja_build)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 set(LLVM_LDFLAGS "$(shell llvm-config --libs --ldflags)")
 set(CMAKE_SHARED_LINKER_FLAGS "-undefined dynamic_lookup")

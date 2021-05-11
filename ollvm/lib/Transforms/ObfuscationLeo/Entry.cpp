@@ -52,11 +52,12 @@ static llvm::RegisterStandardPasses Y(
         llvm::PassManagerBuilder::EP_EarlyAsPossible,
         [](const llvm::PassManagerBuilder &Builder,
            llvm::legacy::PassManagerBase &PM) {
-            errs() << "abcdefg" << "\n";
+            errs() << "PassManagerBuilder" << "\n";
 
             //PM.add(createHelloPass());
 
             PM.add(createStringStitution());
+
 
 
         });

@@ -343,7 +343,6 @@ ollvm/lib/Transforms/ObfuscationLeo/CMakeFiles/LLVMObfuscationLeo.dir/StringStit
  /usr/local/include/llvm/ADT/SmallPtrSet.h
  /usr/local/include/llvm/ADT/SmallString.h
  /usr/local/include/llvm/ADT/SmallVector.h
- /usr/local/include/llvm/ADT/Statistic.h
  /usr/local/include/llvm/ADT/StringMap.h
  /usr/local/include/llvm/ADT/StringRef.h
  /usr/local/include/llvm/ADT/Twine.h
@@ -358,25 +357,46 @@ ollvm/lib/Transforms/ObfuscationLeo/CMakeFiles/LLVMObfuscationLeo.dir/StringStit
  /usr/local/include/llvm/ADT/simple_ilist.h
  /usr/local/include/llvm/Config/abi-breaking.h
  /usr/local/include/llvm/Config/llvm-config.h
+ /usr/local/include/llvm/CryptoUtils.h
  /usr/local/include/llvm/IR/Argument.h
  /usr/local/include/llvm/IR/Attributes.h
  /usr/local/include/llvm/IR/Attributes.inc
  /usr/local/include/llvm/IR/BasicBlock.h
  /usr/local/include/llvm/IR/CallingConv.h
+ /usr/local/include/llvm/IR/Comdat.h
  /usr/local/include/llvm/IR/Constant.h
+ /usr/local/include/llvm/IR/ConstantFolder.h
+ /usr/local/include/llvm/IR/Constants.h
+ /usr/local/include/llvm/IR/ConstrainedOps.def
+ /usr/local/include/llvm/IR/DataLayout.h
  /usr/local/include/llvm/IR/DebugLoc.h
  /usr/local/include/llvm/IR/DerivedTypes.h
  /usr/local/include/llvm/IR/DiagnosticHandler.h
+ /usr/local/include/llvm/IR/FPEnv.h
  /usr/local/include/llvm/IR/FixedMetadataKinds.def
  /usr/local/include/llvm/IR/Function.h
+ /usr/local/include/llvm/IR/GlobalAlias.h
+ /usr/local/include/llvm/IR/GlobalIFunc.h
+ /usr/local/include/llvm/IR/GlobalIndirectSymbol.h
  /usr/local/include/llvm/IR/GlobalObject.h
  /usr/local/include/llvm/IR/GlobalValue.h
+ /usr/local/include/llvm/IR/GlobalVariable.h
+ /usr/local/include/llvm/IR/IRBuilder.h
+ /usr/local/include/llvm/IR/InstIterator.h
+ /usr/local/include/llvm/IR/InstrTypes.h
  /usr/local/include/llvm/IR/Instruction.def
  /usr/local/include/llvm/IR/Instruction.h
+ /usr/local/include/llvm/IR/Instructions.h
+ /usr/local/include/llvm/IR/IntrinsicEnums.inc
+ /usr/local/include/llvm/IR/IntrinsicInst.h
+ /usr/local/include/llvm/IR/Intrinsics.h
  /usr/local/include/llvm/IR/LLVMContext.h
  /usr/local/include/llvm/IR/Metadata.def
  /usr/local/include/llvm/IR/Metadata.h
+ /usr/local/include/llvm/IR/Module.h
  /usr/local/include/llvm/IR/OperandTraits.h
+ /usr/local/include/llvm/IR/Operator.h
+ /usr/local/include/llvm/IR/ProfileSummary.h
  /usr/local/include/llvm/IR/SymbolTableListTraits.h
  /usr/local/include/llvm/IR/TrackingMDRef.h
  /usr/local/include/llvm/IR/Type.h
@@ -384,6 +404,7 @@ ollvm/lib/Transforms/ObfuscationLeo/CMakeFiles/LLVMObfuscationLeo.dir/StringStit
  /usr/local/include/llvm/IR/User.h
  /usr/local/include/llvm/IR/Value.def
  /usr/local/include/llvm/IR/Value.h
+ /usr/local/include/llvm/IR/ValueHandle.h
  /usr/local/include/llvm/Pass.h
  /usr/local/include/llvm/PassAnalysisSupport.h
  /usr/local/include/llvm/PassInfo.h
@@ -393,14 +414,17 @@ ollvm/lib/Transforms/ObfuscationLeo/CMakeFiles/LLVMObfuscationLeo.dir/StringStit
  /usr/local/include/llvm/Support/Alignment.h
  /usr/local/include/llvm/Support/Allocator.h
  /usr/local/include/llvm/Support/Atomic.h
+ /usr/local/include/llvm/Support/AtomicOrdering.h
  /usr/local/include/llvm/Support/CBindingWrapping.h
  /usr/local/include/llvm/Support/Casting.h
+ /usr/local/include/llvm/Support/CodeGen.h
  /usr/local/include/llvm/Support/Compiler.h
  /usr/local/include/llvm/Support/DataTypes.h
  /usr/local/include/llvm/Support/Endian.h
  /usr/local/include/llvm/Support/ErrorHandling.h
  /usr/local/include/llvm/Support/Host.h
  /usr/local/include/llvm/Support/MD5.h
+ /usr/local/include/llvm/Support/ManagedStatic.h
  /usr/local/include/llvm/Support/MathExtras.h
  /usr/local/include/llvm/Support/MemAlloc.h
  /usr/local/include/llvm/Support/PointerLikeTypeTraits.h
@@ -411,3 +435,4 @@ ollvm/lib/Transforms/ObfuscationLeo/CMakeFiles/LLVMObfuscationLeo.dir/StringStit
  /usr/local/include/llvm/Support/TypeSize.h
  /usr/local/include/llvm/Support/raw_ostream.h
  /usr/local/include/llvm/Support/type_traits.h
+ /usr/local/include/llvm/Transforms/Utils/GlobalStatus.h
